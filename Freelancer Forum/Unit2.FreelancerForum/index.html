@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Forum</title>
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            text-align: center;
+            background-color: white;
+        }
+
+        h1, h2, th {
+            font-weight: bold;
+        }
+
+        h1, tr {
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        #root {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        table {
+            margin: 0 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Freelancer Forum</h1>
+    <p id="average-price">
+        <!-- JavaScript will update the price here-->
+    </p>
+    <div id="root">
+        <h2>Available Freelancers</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Occupation</th>
+                    <th>Starting Price</th>
+                </tr>
+            </thead>
+            <tbody id="freelancer">
+                <!-- JavaScript will insert rows here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
